@@ -1,16 +1,16 @@
 import React, { useState, useRef } from 'react';
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const formRef = useRef(null);
-  const [form, setForm] = useState({name: "", email: "", message: ""})
+  const [form, setForm] = useState({name: "", email: "", message: ""});
   const [isLoading, setisLoading] = useState(false);
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value })
   };
   const handleSubmit = (e) => {
-    e.preDefault();
+    e.preventDefault();
     setisLoading(true);
 
     emailjs
@@ -97,6 +97,9 @@ const Contact = () => {
             {isLoading ? 'Sending...' : 'Send Message'}
           </button>
         </form>
+      </div>
+      <div className="">
+        
       </div>
     </section>
   )
