@@ -11,6 +11,8 @@ import HomeInfo from '../components/HomeInfo';
 
 import sakura from '../assets/sakura.mp3'
 import { soundoff, soundon } from '../assets/icons';
+import { socialLinks } from '../constants';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   
@@ -101,6 +103,27 @@ const Home = () => {
           className='w-10 h-10 cursor-pointer object-contain' 
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
         />
+        <div className="mt-5 flex absolute bottom-0.5 left-16">
+          {socialLinks.map((socialLink) => (
+            <div className="w-full" key={socialLink.name}>
+            <div className="block-container w-12 h-12">
+              <div className={`btn-back rounded-xl ${socialLink.icon}`}/>
+                <Link
+                  to={socialLink.link}
+                  target="_black"
+                  rel="noopener noreferrer"
+                  className="btn-front rounded-xl flex justify-center items-center"
+                >
+                  <img 
+                    src={socialLink.iconUrl}
+                    alt="socialLink Icon"
+                    className='w-1/2 h-1/2 object-contain'
+                  />
+                </Link>
+            </div>
+          </div>
+          ))}
+        </div>
       </div>
 
     </section>
