@@ -23,7 +23,11 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    user,
+    chat,
+    tree,
+    cube
 } from "../assets/icons";
 
 export const skills = [
@@ -145,45 +149,38 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: user,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: '3D-Portfolio',
+        description: '3D-Portfolio using Three-JS and DREI which is a ReactJS components, using this created a 3D island which elaborate the info.',
+        link: 'https://github.com/PrabhuM143/3D-Portfolio-ReactJS-and-ThreeJS-main',
     },
     {
         iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        theme: 'btn-back-green',
+        name: 'TrioTek Website (Intern)',
+        description: 'Designed and created a website with parallex effect and with complex UI and user-friendly experience UI/UX.',
+        link: 'https://github.com/PrabhuM143/PurisZeroX',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: tree,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Woodie',
+        description: 'ReactJS Web application that represent the varieties and info about the trees and plants across the campus, with its benefits and the region where it grows.',
+        link: 'https://github.com/PrabhuM143/Woodie-Web',
     },
     {
-        iconUrl: estate,
+        iconUrl: chat,
+        theme: 'btn-back-blue',
+        name: 'ChatBot Python Flask',
+        description: 'A python chatbot which responds to general medical questions regarding covid-19 cases including the precautious measures to be safe.',
+        link: 'https://github.com/PrabhuM143/ChatBot-python',
+    },
+    {
+        iconUrl: cube,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'AI-Powered 3D website',
+        description: 'Website which creates T-Shirts with custom patterns and color that the user desire.',
+        link: 'https://github.com/PrabhuM143/ai_power_3d_website',
     }
 ];

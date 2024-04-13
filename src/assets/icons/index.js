@@ -16,7 +16,7 @@ import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
-import car from './car.svg'
+import car from './car.png'
 import estate from './estate.svg'
 import pricewise from './pricewise.svg'
 import snapgram from './snapgram.svg'
@@ -26,8 +26,14 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import user from './user.png'
+import chat from './chat.png'
+import tree from './tree.png'
+import cube from './cube.png'
 
 export {
+    cube,
+    chat,
     css,
     express,
     git,
@@ -55,5 +61,7 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    user,
+    tree
 }
