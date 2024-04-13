@@ -30,7 +30,7 @@ const renderContent = {
         < InfoBox 
             text="Led multiple projects to success over the years. Curious about the impacts?"
             link="/projects"
-            btnText="Visit my portfolio"
+            btnText="Visit my Projects"
         />
     ),
     4: (
