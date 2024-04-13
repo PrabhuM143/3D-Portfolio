@@ -153,7 +153,7 @@ export const projects = [
         theme: 'btn-back-red',
         name: '3D-Portfolio',
         description: '3D-Portfolio using Three-JS and DREI which is a ReactJS components, using this created a 3D island which elaborate the info.',
-        link: 'https://github.com/PrabhuM143/3D-Portfolio',
+        link: 'https://github.com/PrabhuM143/Prabhu-Portfolio-3D',
     },
     {
         iconUrl: car,
